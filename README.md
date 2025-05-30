@@ -28,11 +28,11 @@ Control a robotic car with your hand! This project uses a smart glove to wireles
 | Jumper Wires (M-F)       | 1 pack
 
 ---
-# How it works?
+## How it works?https://github.com/ssraste/GestureControlledCar/blob/main/README.md
 As you move your hand, the MPU6050 detects the angular tilt and sends the updated values to the Arduino Nano using the I2C protocol. The Arduino processes this data and transmits corresponding movement commands through the HC-05 Bluetooth module via the UART protocol to another HC-05 module located in the robotic car. The second HC-05 forwards the received commands to an Arduino Mega, which then sends digital HIGH/LOW signals to an L293D motor driver, controlling the DC motors that drive the car's wheels.
 
 ---
-# Steps to Create Your Own
+## Steps to Create Your Own
 1. Assemble Your Robot: Get your car chassis, motors, and wheels ready.
 2. Solder the Transmitter Circuit: Follow your circuit diagram to solder the Arduino Nano, MPU6050, and HC-05 onto the vero board for your glove.
 3. Assemble Car Components: Mount the Arduino Mega, HC-05, and L293D driver onto your car. Connect all components with jumper wires.
@@ -41,8 +41,9 @@ As you move your hand, the MPU6050 detects the angular tilt and sends the update
 6. Test the Robot! Power everything up, connect, and start controlling your car with your hand!
 
 ---
-Demo: 
+## Demo: 
 
+![Gesture Car Demo](GIF.gif)
 
 
 
